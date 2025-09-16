@@ -1,0 +1,31 @@
+About
+论文：SNaRe : Domain-aware Data Generation for Low-Resource Event Detection 的非官方复现
+
+requirements：
+  OpenAI
+
+usage:
+  create trigger pool: 1.run python mulit_thread_trigger.py
+                       2.run convert_pool.ipynb to preprocess LLM outputs
+  chat for ED data:  1.run python multi_thread_get_data.py
+                     2.run convert2degree_data.ipynb to preprocess LLM outputs
+  training SLM: using model: DEGREE
+
+exp outputs(without training LLMs):
+    on DEEPSEEK-v3:
+      EVENT I(%)  - P: 76.69(273/ 356)  R: 67.74(273/403)  F: 71.94
+      Trigger I(%)- P: 70.72(244/ 345)  R: 60.55(244/403)  F: 65.24
+farthermore, we expanded SNaRe to EE(Event Extraction), here is a glimpse of its performance(without training LLMs):
+    on DEEPSEEK-v3:
+      EVENT I(%)   - P:72.50(232/ 320)，R:57.57(232/ 403)，F:64.18
+      Trigger I(%) - P:69,43(218/ 314), R:54.09(218/ 403)，F:60.81
+      Role I(%)    - P:36.72(260/ 708)，R:46.26(260/ 562)，F:40.94
+      Role C(%)    - P:33.62(238/ 708)，R:42.35(238/ 562)，F:37.48
+    on Llama-8b-instruct:
+      EVENT I(%)   - P:76.83(199/259)，R:49.38(199/403)，F:60.12
+      Trigger I(%) - P:70.04(180/257), R:44.67(180/403)，F:54.55
+      Role I(%)    - P:30.21(171/566)，R:30.43(171/562)，F:30.32
+      Role C(%)    - P:27.03(153/566)，R:27.22(153/562)，F:27.13
+*this research is still on processing
+
+
