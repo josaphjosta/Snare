@@ -1,0 +1,22 @@
+{
+    "MEET": {
+        "Entity-Arg": [
+            "PER/ORG/GPE",
+            "The agents who are meeting"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the meeting takes place"
+        ]
+    },
+    "PHONE-WRITE": {
+        "Entity-Arg": [
+            "PER/ORG/GPE",
+            "The communicating agents"
+        ],
+	"Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the communication takes place"
+        ]
+    }
+}

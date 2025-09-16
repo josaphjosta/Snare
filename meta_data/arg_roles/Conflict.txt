@@ -1,0 +1,30 @@
+{
+    "ATTACK": {
+        "Attacker-Arg": [
+            "PER/ORG/GPE",
+            "The attacking/instigating agent"
+        ],
+        "Target-Arg": [
+            "PER/ORG/VEH/FAC/WEA",
+            "The target of the attack (including unintended targets)"
+        ],
+	"Instrument-Arg": [
+            "WEA/VEH",
+            "The instrument used in the attack"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the attack takes place"
+        ]
+    },
+    "DEMONSTRATE": {
+        "Entity-Arg": [
+            "PER/ORG",
+            "The demonstrating agent"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the demonstration takes place"
+        ]
+    }
+}

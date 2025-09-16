@@ -1,0 +1,34 @@
+{
+    "TRANSFER-OWNERSHIP": {
+        "Buyer-Arg": [
+            "PER/ORG/GPE",
+            "The buying agent (e.g., purchaser)"
+        ],
+        "Seller-Arg": [
+            "PER/ORG/GPE",
+            "The selling agent (rare for ORGANIZATION transfers)"
+        ],
+        "Artifact-Arg": [
+            "VEH/WEA/FAC/ORG",
+            "The item/organization transferred (e.g., weapons, vehicles, companies)"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the sale occurs"
+        ]
+    },
+    "TRANSFER-MONEY": {
+        "Giver-Arg": [
+            "PER/ORG/GPE",
+            "The agent donating agent "
+        ],
+        "Recipient-Arg": [
+            "PER/ORG/GPE",
+            "The recipient agent"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "transaction takes place"
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+START-ORG?A START-ORG Event occurs whenever a new ORGANIZATION is created.?Joseph Conrad Parkhurst, who founded the motorcycle magazine Cycle World in 1962, has died. ?founded
+MERGE-ORG?A MERGE-ORG Event occurs whenever two or more ORGANIZATION Entities come together to form a new ORGANIZATION Entity.  This Event applies to any kind of ORGANIZATION, including government agencies.  It also includes joint ventures.?Parkhurst later merged with another company that owned Road & Track to become Bond/Parkhurst Publishing.?merged
+DECLARE-BANKRUPTCY?A DECLARE-BANKRUPTCY Event will occur whenever an Entity officially requests legal protection from debt collection due to an extremely negative balance sheet.? Orange County had previously filed Chapter 11 in 1995. ?Chapter 11 
+END-ORG ?An END-ORG Event occurs whenever an ORGANIZATION ceases to exist (in other words ‘goes out of business’).?The company folded in 2002. ?folded

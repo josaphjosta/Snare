@@ -1,0 +1,34 @@
+{
+    "START-ORG": {
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "The agent responsible for the START-ORG Event (the ‘founder’)"
+        ],
+        "Org-Arg": [
+            "ORG",
+            "The ORGANIZATION that is started"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the Event takes place"
+        ]
+    },
+    "MERGE-ORG": {
+        "Org-Arg": [
+            "ORG",
+            "The ORGANIZATIONS that are merged"
+        ]
+    },
+    "DECLARE-BANKRUPTCY": {
+        "Org-Arg": [
+            "ORG/PER/GPE",
+            "The ORGANIZATION declaring bankruptcy"
+        ]
+    },
+    "END-ORG": {
+        "Org-Arg": [
+            "ORG",
+            "The ORGANIZATION that is ended"
+        ]
+    }
+}

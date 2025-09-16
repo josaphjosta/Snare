@@ -1,0 +1,1 @@
+TRANSPORT?A TRANSPORT Event occurs whenever an ARTIFACT (WEAPON or VEHICLE) or a PERSON is moved from one PLACE (GPE, FACILITY, LOCATION) to another. ?The aid was aimed at repairing houses damaged by Israeli bombing and buying additional ambulances" to transport the rising number of wounded. ?transport

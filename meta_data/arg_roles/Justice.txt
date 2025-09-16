@@ -1,0 +1,200 @@
+{
+    "ARREST-JAIL": {
+        "Person-Arg": [
+            "PER",
+            "the person who is jailed or arrested"
+        ],
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "the jailer or the arresting agent"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the person is arrested or where they are in jail"
+        ]
+    },
+    "RELEASE-PAROLE": {
+        "Person-Arg": [
+            "PER",
+            "the person who is released"
+        ],
+        "Entity-Arg": [
+            "PER/ORG/GPE",
+            "the former captor agent(s)"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the release takes place"
+        ]
+    },
+    "TRIAL-HEARING": {
+        "Defendant-Arg": [
+            "PER/ORG/GPE",
+            "the agent on trial"
+        ],
+        "Prosecutor-Arg": [
+            "PER/ORG/GPE",
+            "The prosecuting agent"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "the judge or court"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the trial takes place"
+        ]
+    },
+    "CHARGE-INDICT": {
+        "Defendant-Arg": [
+            "PER/ORG/GPE",
+            "the agent that is indicted"
+        ],
+        "Prosecutor-Arg": [
+            "PER/ORG/GPE",
+            "the agent bringing charges or executing the indictment"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "the judge or court"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the indictment takes place"
+        ]
+    },
+    "SUE": {
+        "Plaintiff-Arg": [
+            "PER/ORG/GPE",
+            "The suing agent"
+        ],
+        "Defendant-Arg": [
+            "PER/ORG/GPE",
+            "The agent being sued"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "the judge or court"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the suit takes place"
+        ]
+    },
+    "CONVICT": {
+        "Defendant-Arg": [
+            "PER/ORG/GPE",
+            "The convicted agent(s)"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "The judge or court"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the conviction takes place"
+        ]
+    },
+    "SENTENCE": {
+        "Defendant-Arg": [
+            "PER/ORG/GPE",
+            "The agent who is sentenced"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "The judge or court"
+        ],
+        "Sentence-Arg": [
+            "SEN",
+            "The sentence"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the sentencing takes place"
+        ]
+    },
+    "FINE": {
+        "Entity-Arg": [
+            "PER/ORG/GPE",
+            "the Entity that was fined"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "the Entity doing the fining"
+        ],
+        "Money-Arg": [
+            "NUM",
+            "The amount of the fine"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the fining Event takes place"
+        ]
+    },
+    "EXECUTE": {
+        "Person-Arg": [
+            "PER",
+            "The person executed"
+        ],
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "The agent responsible for carrying out the execution"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the execution takes place"
+        ]
+    },
+    "EXTRADITE": {
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "the extraditing agent"
+        ],
+        "Person-Arg": [
+            "PER",
+            "The person being extradicted"
+        ],
+        "Destination-Arg": [
+            "GPE/LOC/FAC",
+            "Where the person is extradited to, the destination"
+        ],
+        "Origin-Arg": [
+            "GPE/LOC/FAC",
+            "The original location of the person being extradited (rare … only when explicitly mentioned)"
+        ]
+    },
+    "ACQUIT": {
+        "Defendant-Arg": [
+            "PER/ORG/GPE",
+            "The agent being acquitted"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "the judge or court"
+        ]
+    },
+    "PARDON": {
+        "Defendant-Arg": [
+            "PER/ORG/GPE",
+            "The agent being pardoned"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "the state official who does the pardoning"
+        ]
+    },
+    "APPEAL": {
+	"Plaintiff-Arg": [
+            "PER/ORG/GPE",
+            "The suing agent"
+        ],
+        "Adjudicator-Arg": [
+            "PER/ORG/GPE",
+            "The judge or court"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the appeal takes place"
+        ]
+    }
+}

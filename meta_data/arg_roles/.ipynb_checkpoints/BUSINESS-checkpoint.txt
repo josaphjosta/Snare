@@ -1,0 +1,62 @@
+{
+    "START-ORG": {
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "The agent responsible for the START-ORG Event (the ‘founder’)"
+        ],
+        "Org-Arg": [
+            "ORG",
+            "The ORGANIZATION that is started"
+        ],
+        "Time-Arg": [
+            "TIME",
+            "When the Event takes place"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the Event takes place"
+        ]
+    },
+    "MERGE-ORG": {
+        "Org-Arg": [
+            "ORG",
+            "The ORGANIZATIONS that are merged"
+        ],
+        "Time-Arg": [
+            "TIME",
+            "When the merger takes place"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the merger takes place"
+        ]
+    },
+    "DECLARE-BANKRUPTCY": {
+        "Org-Arg": [
+            "ORG/PER/GPE",
+            "The ORGANIZATION declaring bankruptcy"
+        ],
+        "Time-Arg": [
+            "TIME",
+            "When the bankruptcy is declared"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the declaration takes place"
+        ]
+    },
+    "END-ORG": {
+        "Org-Arg": [
+            "ORG",
+            "The ORGANIZATION that is ended"
+        ],
+        "Time-Arg": [
+            "TIME",
+            "When the Event takes place"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the Event takes place"
+        ]
+    }
+}

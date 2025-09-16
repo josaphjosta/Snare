@@ -1,0 +1,68 @@
+{
+    "BE-BORN": {
+        "Person-Arg": [
+            "PER",
+            "The person who is born"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the birth takes place"
+        ]
+    },
+    "MARRY": {
+        "Person-Arg": [
+            "PER",
+            "The people who are married"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the marriage takes place"
+        ]
+    },
+    "DIVORCE": {
+        "Person-Arg": [
+            "PER",
+            "The people who are divorced"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the divorce takes place"
+        ]
+    },
+    "INJURE": {
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "The attacking agent / The one that enacts the harm"
+        ],
+        "Victim-Arg": [
+            "PER",
+            "The harmed person(s)"
+        ],
+        "Instrument-Arg": [
+            "WEA/VEH",
+            "The device used to inflict the harm"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the injuring takes place"
+        ]
+    },
+    "DIE": {
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "The attacking agent / The killer"
+        ],
+        "Victim-Arg": [
+            "PER",
+            "The person(s) who died"
+        ],
+        "Instrument-Arg": [
+            "WEA/VEH",
+            "The device used to kill"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the death takes place"
+        ]
+    }
+}

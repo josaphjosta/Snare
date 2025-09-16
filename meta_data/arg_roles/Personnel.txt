@@ -1,0 +1,54 @@
+{
+    "START-POSITION": {
+        "Person-Arg": [
+            "PER",
+            "the employee"
+        ],
+        "Entity-Arg": [
+            "ORG/GPE",
+            "the employer"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the employment relationship begins"
+        ]
+    },
+    "END-POSITION": {
+        "Person-Arg": [
+            "PER",
+            "the employee"
+        ],
+        "Entity-Arg": [
+            "ORG/GPE",
+            "the employer"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the employment relationship ends"
+        ]
+    },
+    "NOMINATE": {
+        "Person-Arg": [
+            "PER",
+            "the person(s) nominated"
+        ],
+        "Agent-Arg": [
+            "PER/ORG/GPE/FAC",
+            "the nominating agent"
+        ]
+    },
+    "ELECT": {
+        "Person-Arg": [
+            "PER",
+            "the person elected"
+        ],
+        "Entity-Arg": [
+            "PER/ORG/GPE",
+            "the voting agent(s)"
+        ],
+        "Place-Arg": [
+            "GPE/LOC/FAC",
+            "Where the election takes place"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "TRANSPORT": {
+        "Agent-Arg": [
+            "PER/ORG/GPE",
+            "The agent responsible for the transport Event"
+        ],
+        "Artifact-Arg": [
+            "PER/WEA/VEH",
+            "The person doing the traveling or the artifact being transported"
+        ],
+        "Vehicle-Arg": [
+            "VEH",
+            "The vehicle used to transport the person or artifact"
+        ],
+        "Origin-Arg": [
+            "GPE/LOC/FAC",
+            "Where the transporting originated"
+        ],
+        "Destination-Arg": [
+            "GPE/LOC/FAC",
+            "Where the transporting is directed"
+        ]
+    }
+}
